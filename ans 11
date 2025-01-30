@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{ 
+    int n;
+    cout<<"enter number: ";
+    cin>>n;
+    int b = sizeof(n)*8;
+    cout<<"the number of bits in integer given is: "<<b<<" bits";
+    return 0;
+  
+}
